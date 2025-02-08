@@ -1,7 +1,7 @@
 import java.util.*;
 
 public class linearSearch{
-    public static int linearSearch(int numbers[], int key){
+    public static int linear_Search(int numbers[], int key){
     for(int i=0; i<numbers.length; i++){
         if(numbers[i] == key) {
             return i;
@@ -15,7 +15,7 @@ public class linearSearch{
         int numbers[] = {2,4,6,8,10,12,14,16};
         int key = 20;
 
-        int index = linearSearch(numbers, key);
+        int index = linear_Search(numbers, key);
         if(index == -1) {
             System.out.println("NOT found");
         }else{
